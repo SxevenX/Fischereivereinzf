@@ -48,27 +48,8 @@ body{
 }
 
 .Logo{
-    width: 23%;
+    width: 27%;
     height: auto;
-}
-
-.Verein{
-    color: white;
-    font-size: 150%;
-}
-
-#box1
-{
-float: left; 
-width: 40%; /* optionale Weitenangabe */
-padding-right: 3%;
-}
-
-#box2
-{
-float: right; 
-width: 60%; /* optionale Weitenangabe */
-padding-top: 3%;
 }
 
 .navbar a{
@@ -283,7 +264,7 @@ li{
 
     h1{
         font-weight: 0;
-        font-size: 180%;
+        font-size: 200%;
     }
 
     .Mehr-Knopf{
@@ -308,14 +289,6 @@ li{
     .absatzlinie{
         width: 90%;
     }
-
-    .Verein{
-        font-size: 100%;
-    }
-
-    .Vereinslogo{
-        padding-top: 80px;
-    }
 }
 
 #check:checked~.navbar a {
@@ -323,4 +296,3 @@ li{
     opacity: 1;
     transition-delay: calc(.15s * var(--i));
 }
-
